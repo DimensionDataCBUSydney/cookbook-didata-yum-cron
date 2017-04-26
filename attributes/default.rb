@@ -20,8 +20,8 @@ when 7
   default['yum-cron']['daily']['commands'] = {
     'update_cmd' => 'default',
     'update_messages' => 'yes',
-    'download_updates' => 'yes',
-    'apply_updates' => 'yes',
+    'download_updates' => 'no',
+    'apply_updates' => 'no',
     'random_sleep' => 360
   }
   default['yum-cron']['daily']['emitters'] = {
